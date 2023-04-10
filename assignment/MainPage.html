@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="ISO-8859-1">
+	<title>EzClinic</title>
+	<link rel="stylesheet" href="stylingcss.css">
+	<style>
+		.header{
+			padding: 60px;
+		  text-align: center;
+		  color: white;
+		  font-size: 30px;
+		  background: #408080;
+		}
+
+		.container{
+			padding:20px;
+			
+			text-align:center;
+			background:white;
+		}
+		.left {
+		  float: left;
+		  width: 50%;
+
+		}
+		
+		.right {
+		  float: right;
+		  width: 50%;
+		  padding-top:100px;
+		}
+		.right p{
+			font-size:35px;
+		}
+
+		.right .button-28 {
+		  appearance: none;
+		  background-color: transparent;
+		  border: 2px solid #1A1A1A;
+		  border-radius: 15px;
+		  box-sizing: border-box;
+		  color: #3B3B3B;
+		  cursor: pointer;
+		  display: inline-block;
+		  font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+		  font-size: 16px;
+		  font-weight: 600;
+		  line-height: normal;
+		  margin: 0;
+		  min-height: 60px;
+		  min-width: 0;
+		  outline: none;
+		  padding: 16px 24px;
+		  text-align: center;
+		  text-decoration: none;
+		  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+		  user-select: none;
+		  -webkit-user-select: none;
+		  touch-action: manipulation;
+		  width: 30%;
+		  will-change: transform;
+		}
+		
+		.button-28:disabled {
+		  pointer-events: none;
+		}
+		
+		.button-28:hover {
+		  color: #fff;
+		  background-color: #1A1A1A;
+		  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+		  transform: translateY(-2px);
+		}
+		
+		.button-28:active {
+		  box-shadow: none;
+		  transform: translateY(0);
+		}
+		footer{
+			width:98%;
+		}
+		
+	</style>
+</head>
+<body>
+	<div class="navMenu">
+		<ul>
+			<li><a href="MainPage.html">Home</a>
+			<li><a href="Clinics.php">Clinics</a>
+			<li><a href="pharmacy.php">Pharmacy</a>
+			<li><a href="login.html">Login</a>
+		</ul>
+	</div>
+		
+	<div class="header">
+		<h1>Welcom to EzClinic</h1>
+		<p>EzClinic offers you a one stop service with online consultation</p>
+		<p>with trusted partner clinics and pharmacy.</p>
+	</div>
+	<div class="container">
+		<img src="consultationPhoto.jpg">
+		<div class="right">
+			<p>Meet your doctor now!</p><br>
+			<a href="login.html" class="button-28" role="button">Login to your Account</a>
+			<a href="Registration.html" class="button-28" role="button">Register an Account</a>
+		</div>
+	</div>
+	
+	<footer>
+      <p>Copyright © 2023 EzClinic Website</p>
+      <nav>
+        <a href="#">About</a> |
+        <a href="#">Contact</a> |
+        <a href="#">Privacy Policy</a>
+      </nav>
+	</footer>
+</body>
+</html>

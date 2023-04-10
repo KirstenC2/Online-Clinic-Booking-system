@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Login</title>	
+<link rel="stylesheet" href="loginUser.css">
+</head>
+<body >
+	<div class="navMenu">
+		<ul>
+			<li><a href=MainPage.html>Home</a></li>
+			<li><a href="Registration.html">Register</a></li>
+		</ul>
+	</div>
+	<div class="overlay">
+		<form action="login.php" method="post">
+			<div class="con">
+				<header class="head-form">
+					<h2>Login</h2>
+					<p>Enter your details to login.</p>
+				</header><br>
+				<div class="field-set">
+					<label for="email">E-mail</label>
+					<input class="form-input" type="email" name="email" id="email"><br><br>
+					
+					<label for="password">Password</label>
+					<input class="form-input" type="Password" name="password" id="password"><br><br>
+					
+					<button class="log-in" type="submit">Login</button>
+				
+				</div>
+				<div class="other">
+					<a href="adminLogin.html">Login as Clinic Admin</a>
+					<a href="pharmacyLogin.html" > Login as Pharmacy Admin</a>
+				</div>
+			</div>
+			</form>
+	</div>
+		
+	
+	
+</body>
+</html>
